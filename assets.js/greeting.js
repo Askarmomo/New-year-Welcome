@@ -13,9 +13,9 @@ const url = new URL(window.location.href)
 
 const name = url.searchParams.get("name")
 
-if(name){
+if (name) {
     namespan.textContent = name
-}else{
-    location.href = "./index.html"
+} else {
+    location.href = "./index.html";
 }
 
