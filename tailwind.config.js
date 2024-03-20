@@ -5,6 +5,7 @@ export default {
     "./greeting.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./assets/**/*.{js,ts,jsx,tsx}",
+    "./assets.js/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
